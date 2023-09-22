@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int number;
+	printf("enter an integer number\n");
+	scanf("%d",&number);
+	
+	if (number<=15)
+	printf("yes\n\n");
+	else
+	printf("no\n");
+	return(0);
+}
